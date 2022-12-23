@@ -1,10 +1,5 @@
 package Java_L_S_D_ooP.DZ.Dz_2.Data;
 
-// Создать package – data. Работу продолжаем в нем
-// Реализовать абстрактный класс User и его наследники Student и Teacher. Родитель 
-// имеет в себе общие данные (фио, год рождения, паспорт (серия номер), а наследники 
-// собственные параметры (номер группы для Student, кафедра для Teacher).
-
 public abstract class User {
     private String FIO;
     private int birthday;
@@ -34,6 +29,4 @@ public abstract class User {
     public void setPassport(int passport) {
         this.passport = passport;
     }
-
-
 }

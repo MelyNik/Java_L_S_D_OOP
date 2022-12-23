@@ -1,8 +1,8 @@
 package Java_L_S_D_ooP.DZ.Dz_2.Service;
 
-import Java_L_S_D_ooP.Seminar.Seminar_2.Data.User;
-import Java_L_S_D_ooP.Seminar.Seminar_2.Util.ReaderFromTxt;
-import Java_L_S_D_ooP.Seminar.Seminar_2.Util.WriterToTxt;
+import Java_L_S_D_ooP.DZ.Dz_2.Data.User;
+import Java_L_S_D_ooP.DZ.Dz_2.Util.ReaderFromTxt;
+import Java_L_S_D_ooP.DZ.Dz_2.Util.WriterToTxt;
 
 public class TeacherDataService implements DataService {
     @Override

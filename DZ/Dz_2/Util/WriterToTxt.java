@@ -1,6 +1,6 @@
 package Java_L_S_D_ooP.DZ.Dz_2.Util;
 
-import Java_L_S_D_ooP.Seminar.Seminar_2.Data.User;
+import Java_L_S_D_ooP.DZ.Dz_2.Data.User;
 
 public class WriterToTxt {
     private String path;

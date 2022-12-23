@@ -1,11 +1,17 @@
 package Java_L_S_D_ooP.DZ.Dz_2.Controller;
 
-// Создать package – view. Работу продолжаем в нем
-// Создать абстрактный класс  UserView, содержащий в себе метод 
-// void showTheBest(List<User> userList) , нутри вызывающий абстрактный метод 
-// User findTheBest(List<User> userList)
-// 3.    Создать класс StudentView, унаследованный или имплементирующий UserView , 
-// содержащий в себе реализация findTheBest
+// 1. Создать класс StudentGroup, содержащая в себе поля Teacher и список студентов.
+
+// 2. Создать класс StudentGroupServiceImpl, в котором реализована логика чтения Студентов и 
+// Преподавателя из файла txt (реализация чтения файла опциональна), 
+// создания класса StudentGroup и возвращения его.
+
+// 3. Создать метод в Controller createGroup(int groupNumber), в который передается номер группы, 
+// а возвращается StudentGroup.
+
+// 4. Все вышеуказанное создать согласно принципам ООП пройдённым на семинаре.
+
+
 
 import Java_L_S_D_ooP.DZ.Dz_2.Data.StudentGroup;
 import Java_L_S_D_ooP.DZ.Dz_2.Data.Student;
@@ -23,17 +29,17 @@ public class Controller {
         this.studentService = studentService;
     }
 
-    public Student writeStudent (Student student) {
+    public Student writeStudent(Student student) {
         studentService.write(student);
         return (Student) studentService.read(student);
     }
 
-    public Teacher writeTeacher (Teacher teacher) {
+    public Teacher writeTeacher(Teacher teacher) {
         teacherService.write(teacher);
         return (Teacher) teacherService.read(teacher);
     }
 
-    public StudentGroup createGroup (int groupNumber) {
+    public StudentGroup createGroup(int groupNumber) {
         StudentGroup group = new StudentGroup(null, null, groupNumber);
         return group;
     }
