@@ -27,8 +27,9 @@ public class Methods {
 
     //#region
 
-    public static <T1, T2> T2 put(T1 arg1, T2 arg2) {
-        // Map<Integer,String> hm = new HashMap<>();
+    public static <T1, T2> T2 put(T1 arg1, T2 arg2) { // T2 после скобок указывает на то, что возращать
+                                                      // из функции мы будем именно T2.
+        // Map<Integer,String> hm = new HashMap<>();  
         // hm.put(key, value)
         return arg2;
     }
