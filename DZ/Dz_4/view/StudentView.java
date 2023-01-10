@@ -1,8 +1,7 @@
 package Java_L_S_D_ooP.DZ.Dz_4.view;
 
 import java.util.List;
-
-import Java_L_S_D_ooP.DZ.Dz_3.Data.User;
+import Java_L_S_D_ooP.DZ.Dz_4.data.User;
 
 public class StudentView extends UserView {
 

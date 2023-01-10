@@ -19,7 +19,7 @@ public class StudentService implements DataService<Student>  {
     }
 
     public Student findStudentById(int id) {
-        return studentRepository.findById(id);
+        return studentRepository.findByid(id);
     }
 
     @Override

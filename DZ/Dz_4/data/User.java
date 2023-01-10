@@ -1,6 +1,7 @@
 package Java_L_S_D_ooP.DZ.Dz_4.data;
 
 public abstract class User {
+    
     private String FIO;
     private int birthday;
     private int passport;

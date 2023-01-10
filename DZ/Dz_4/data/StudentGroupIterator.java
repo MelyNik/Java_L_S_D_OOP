@@ -3,8 +3,8 @@ package Java_L_S_D_ooP.DZ.Dz_4.data;
 import java.util.Iterator;
 import java.util.List;
 
-
 public class StudentGroupIterator implements Iterator<Student> {
+    
     private StudentGroup studentGroup;
     private List<Student> students;
     private int cursor;

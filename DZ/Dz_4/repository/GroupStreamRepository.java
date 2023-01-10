@@ -10,7 +10,7 @@ public class GroupStreamRepository implements Repository<GroupStream, Integer> {
     }
 
     @Override
-    public GroupStream findById(Integer id) {
+    public GroupStream findByid(Integer id) {
         return null;
     }
 

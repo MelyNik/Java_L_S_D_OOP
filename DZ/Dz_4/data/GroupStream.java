@@ -4,6 +4,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class GroupStream implements Iterable<StudentGroup>{
+    
     private List<StudentGroup> studentGroup;
 
     public GroupStream(List <StudentGroup> studentGroup) {

@@ -21,7 +21,7 @@ public class GroupStreamServiceImpl implements GroupStreamService {
     }
 
     public GroupStream findGroupStreamById(int id) {
-        return groupStreamRepository.findById(id);
+        return groupStreamRepository.findByid(id);
     }
 
     public void sortGroupStream(List<GroupStream> groupStreams) {

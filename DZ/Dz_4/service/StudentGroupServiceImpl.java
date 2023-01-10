@@ -23,7 +23,7 @@ public class StudentGroupServiceImpl implements StudentGroupService{
     }
 
     public StudentGroup findGroup(int groupNumber) {
-        return studentGroupIntegerRepository.findById(groupNumber);
+        return studentGroupIntegerRepository.findByid(groupNumber);
     }
 
     @Override

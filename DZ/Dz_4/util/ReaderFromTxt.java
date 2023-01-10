@@ -2,11 +2,12 @@ package Java_L_S_D_ooP.DZ.Dz_4.util;
 
 import java.util.List;
 
-import Java_L_S_D_ooP.DZ.Dz_3.Data.Student;
-import Java_L_S_D_ooP.DZ.Dz_3.Data.Teacher;
-import Java_L_S_D_ooP.DZ.Dz_3.Data.User;
+import Java_L_S_D_ooP.DZ.Dz_4.data.Student;
+import Java_L_S_D_ooP.DZ.Dz_4.data.Teacher;
+import Java_L_S_D_ooP.DZ.Dz_4.data.User;
 
 public class ReaderFromTxt {
+    
     private String path;
 
     public static User read () {

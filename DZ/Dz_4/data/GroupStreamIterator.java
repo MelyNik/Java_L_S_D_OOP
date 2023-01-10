@@ -4,6 +4,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class GroupStreamIterator implements Iterator<StudentGroup> {
+    
     private List <StudentGroup> studentGroup;
     private int cursor;
 
