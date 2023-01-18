@@ -1,10 +1,10 @@
-package Java_L_S_D_ooP.Seminar.Seminar_5.service;
+package Java_L_S_D_ooP.DZ.Dz_5.service;
 
-import Java_L_S_D_ooP.Seminar.Seminar_5.data.Student;
-import Java_L_S_D_ooP.Seminar.Seminar_5.data.User;
-import Java_L_S_D_ooP.Seminar.Seminar_5.repository.StudentRepository;
-import Java_L_S_D_ooP.Seminar.Seminar_5.util.ReaderFromTxt;
-import Java_L_S_D_ooP.Seminar.Seminar_5.util.WriterFromTxt;
+import Java_L_S_D_ooP.DZ.Dz_5.data.Student;
+import Java_L_S_D_ooP.DZ.Dz_5.data.User;
+import Java_L_S_D_ooP.DZ.Dz_5.repository.StudentRepository;
+import Java_L_S_D_ooP.DZ.Dz_5.util.ReaderFromTxt;
+import Java_L_S_D_ooP.DZ.Dz_5.util.WriterFromTxt;
 
 public class StudentService implements DataService<Student>  {
 

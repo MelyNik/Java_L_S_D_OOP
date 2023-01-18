@@ -1,4 +1,4 @@
-package Java_L_S_D_ooP.Seminar.Seminar_5.data;
+package Java_L_S_D_ooP.DZ.Dz_5.data;
 
 public class Student extends User implements Comparable<Student>{
     

@@ -1,4 +1,4 @@
-package Java_L_S_D_ooP.Seminar.Seminar_5.data;
+package Java_L_S_D_ooP.DZ.Dz_5.data;
 
 public abstract class User {
     
@@ -8,7 +8,7 @@ public abstract class User {
 
     public User(String FIO){
         this.FIO = FIO;
-    } 
+    }
 
     public User(String FIO, int birthday, int passport) {
         this.FIO = FIO;
