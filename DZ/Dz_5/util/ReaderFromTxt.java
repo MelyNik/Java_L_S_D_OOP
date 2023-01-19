@@ -6,10 +6,6 @@ import Java_L_S_D_ooP.DZ.Dz_5.data.Student;
 import Java_L_S_D_ooP.DZ.Dz_5.data.Teacher;
 import Java_L_S_D_ooP.DZ.Dz_5.data.User;
 
-
-
-
-
 public class ReaderFromTxt {
     
     private String path;

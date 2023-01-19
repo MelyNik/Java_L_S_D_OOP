@@ -1,6 +1,7 @@
 package Java_L_S_D_ooP.DZ.Dz_5.terminal;
 
 import java.util.Scanner;
+import Java_L_S_D_ooP.DZ.Dz_5.terminal.executable.CommandExecutable;
 
 public class TerminalReader {
     
@@ -20,9 +21,12 @@ public class TerminalReader {
 
     public void getI(int f){
         Scanner in = new Scanner(System.in);
-        String command;
         while(true){
-            command = in.nextLine();
+            String command = in.nextLine();
+            String[] input = comandParser.parseCommand(command);
+            CommandExecutableFactor commandExecutableFactor = new CommandExecutableFactor();
+            CommandExecutable commandExecutable = commandExecutableFactor.create(input);
+            commandExecutable.execute();
         }
     }
 

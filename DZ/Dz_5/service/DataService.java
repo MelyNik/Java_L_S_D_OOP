@@ -4,7 +4,9 @@ import Java_L_S_D_ooP.DZ.Dz_5.data.User;
 
 public interface DataService<E extends User> {
     
-    public User read();
+    E read();
+    E create(E user);
+    E saveUser(E user);
+    E findUserById(int id);
 
-    public User create(User user);
 }

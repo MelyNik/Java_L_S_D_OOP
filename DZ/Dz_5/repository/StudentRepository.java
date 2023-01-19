@@ -4,6 +4,18 @@ import Java_L_S_D_ooP.DZ.Dz_5.data.Student;
 
 public class StudentRepository implements UserRepository<Student, Integer> {
     
+    public Student deleteStudent(Student student) {
+        return null;
+    }
+
+    public Student deleteStudentByFio(String fio) {
+        return null;
+    }
+
+    public Student deleteStudentByGroupBirthday(int groupNumber, int birthday) {
+        return null;
+    }
+
     @Override
     public Student save(Student entity){
         return null;

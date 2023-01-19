@@ -4,8 +4,8 @@ public class Student extends User implements Comparable<Student>{
     
     private int groupNumber;
 
-    public Student(String fio){
-        super(fio);
+    public Student(String FIO){
+        super(FIO);
     }
 
     public Student(String FIO, int birthday, int passport, int groupNumber) {
