@@ -1,7 +1,7 @@
-package Java_L_S_D_ooP.DZ.Dz_5.controller;
+package Java_L_S_D_ooP.Seminar.Seminar_6.controller;
 
-import Java_L_S_D_ooP.DZ.Dz_5.data.Student;
-import Java_L_S_D_ooP.DZ.Dz_5.service.StudentService;
+import Java_L_S_D_ooP.Seminar.Seminar_6.data.Student;
+import Java_L_S_D_ooP.Seminar.Seminar_6.service.StudentService;
 
 public class StudentController implements InterfaceController<Student, Integer> {
 

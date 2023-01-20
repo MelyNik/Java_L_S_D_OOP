@@ -1,7 +1,7 @@
-package Java_L_S_D_ooP.DZ.Dz_5.controller;
+package Java_L_S_D_ooP.Seminar.Seminar_6.controller;
 
-import Java_L_S_D_ooP.DZ.Dz_5.data.Teacher;
-import Java_L_S_D_ooP.DZ.Dz_5.service.TeacherService;
+import Java_L_S_D_ooP.Seminar.Seminar_6.data.Teacher;
+import Java_L_S_D_ooP.Seminar.Seminar_6.service.TeacherService;
 
 public class TeacherController implements InterfaceController<Teacher, Integer> {
 
