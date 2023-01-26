@@ -1,7 +1,7 @@
-package Java_L_S_D_ooP.Seminar.Seminar_6.terminal;
+package Java_L_S_D_ooP.DZ.Dz_6_7.terminal;
 
 import java.util.Scanner;
-import Java_L_S_D_ooP.Seminar.Seminar_6.terminal.executable.CommandExecutable;
+import Java_L_S_D_ooP.DZ.Dz_6_7.terminal.executable.CommandExecutable;
 
 public class TerminalReader {
     
@@ -23,8 +23,8 @@ public class TerminalReader {
         Scanner in = new Scanner(System.in);
         while(true){
             String command = in.nextLine();
-            Command input = comandParser.parseCommand(command);
-            CommandExecutableFactor commandExecutableFactor = new LogingCommandExecutableFactor();
+            String[] input = comandParser.parseCommand(command);
+            CommandExecutableFactor commandExecutableFactor = new CommandExecutableFactor();
             CommandExecutable commandExecutable = commandExecutableFactor.create(input);
             commandExecutable.execute();
         }

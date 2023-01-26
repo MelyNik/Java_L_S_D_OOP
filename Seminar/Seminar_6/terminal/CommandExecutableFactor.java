@@ -12,6 +12,10 @@ public class CommandExecutableFactor {
     
     private StudentService studentService;
 
+    public CommandExecutableFactor(){
+        this.studentService = null;
+    }
+
     public CommandExecutable create(Command input){
         if(input.isCreateCommand())
             {
