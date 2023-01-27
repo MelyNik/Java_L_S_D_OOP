@@ -2,9 +2,9 @@ package Java_L_S_D_ooP.DZ.Dz_6_7.db;
 
 import Java_L_S_D_ooP.DZ.Dz_6_7.data.Student;
 
-public class StudentTable extends Table<Student> {
+public class StudentTable extends Table<Student>{
 
-    public boolean deleteByFio(String FIO) {
+    public boolean deleteByFio(String FIO){
         int counter = 0;
         for(int i = 0; i < elements.size(); i++) 
             {
@@ -29,7 +29,7 @@ public class StudentTable extends Table<Student> {
             }
     }
 
-    public boolean deleteStudent(Student studentForDelete) {
+    public boolean deleteStudent(Student studentForDelete){
         for (Student student : elements) 
             {
                 if(student.equals(studentForDelete)) 
@@ -40,4 +40,5 @@ public class StudentTable extends Table<Student> {
             }
         return false;
     }
+    
 }

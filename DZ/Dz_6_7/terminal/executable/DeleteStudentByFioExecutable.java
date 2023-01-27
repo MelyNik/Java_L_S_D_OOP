@@ -1,21 +1,20 @@
 package Java_L_S_D_ooP.DZ.Dz_6_7.terminal.executable;
 
-import Java_L_S_D_ooP.DZ.Dz_6_7.data.Student;
 import Java_L_S_D_ooP.DZ.Dz_6_7.service.StudentService;
 
-public class DeleteStudentByFioExecutable implements CommandExecutable {
+public class DeleteStudentByFioExecutable implements CommandExecutable{
 
     private StudentService studentService;
-    private Student student;
+    private String FIO;
 
-    public DeleteStudentByFioExecutable(StudentService studentService, Student student) {
+    public DeleteStudentByFioExecutable(StudentService studentService, String FIO){
         this.studentService = studentService;
-        this.student = student;
+        this.FIO = FIO;
     }
 
     @Override
-    public void execute() {
-        studentService.deleteStudentByFio(student.getFIO());
-        System.out.println("Delete student: " + student.getFIO());
+    public void execute(){
+        studentService.deleteStudentByFio(FIO);
     }
+
 }

@@ -3,12 +3,12 @@ package Java_L_S_D_ooP.DZ.Dz_6_7.data;
 import java.util.Iterator;
 import java.util.List;
 
-public class GroupStreamIterator implements Iterator<StudentGroup> {
+public class GroupStreamIterator implements Iterator<StudentGroup>{
     
     private List <StudentGroup> studentGroup;
     private int cursor;
 
-    public GroupStreamIterator(List <StudentGroup> studentGroup) {
+    public GroupStreamIterator(List <StudentGroup> studentGroup){
         this.studentGroup = studentGroup;
     }
 
@@ -20,6 +20,6 @@ public class GroupStreamIterator implements Iterator<StudentGroup> {
     @Override
     public StudentGroup next() {
         return studentGroup.get(cursor++);
-
     }
+
 }

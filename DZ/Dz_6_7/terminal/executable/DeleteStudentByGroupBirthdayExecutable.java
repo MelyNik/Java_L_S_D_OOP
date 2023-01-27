@@ -1,21 +1,22 @@
 package Java_L_S_D_ooP.DZ.Dz_6_7.terminal.executable;
 
-import Java_L_S_D_ooP.DZ.Dz_6_7.data.Student;
 import Java_L_S_D_ooP.DZ.Dz_6_7.service.StudentService;
 
-public class DeleteStudentByGroupBirthdayExecutable implements CommandExecutable {
-    private StudentService studentService;
-    private Student student;
+public class DeleteStudentByGroupBirthdayExecutable implements CommandExecutable{
 
-    public DeleteStudentByGroupBirthdayExecutable(StudentService studentService, Student student) {
-        this.student = student;
+    private StudentService studentService;
+    private int groupNumber;
+    private int birthday;
+
+    public DeleteStudentByGroupBirthdayExecutable(StudentService studentService, int groupNumber, int birthday){
         this.studentService = studentService;
+        this.groupNumber = groupNumber;
+        this.birthday = birthday;
     }
 
     @Override
-    public void execute() {
-        studentService.deleteStudentByGroupBirthday(student.getGroupNumber(), student.getBirthday());
-        System.out.println("Delete student: " + student.getFIO());
+    public void execute(){
+        studentService.deleteStudentByGroupBirthday(groupNumber, birthday);
     }
-
+    
 }

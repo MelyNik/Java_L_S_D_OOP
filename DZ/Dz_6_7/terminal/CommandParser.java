@@ -1,7 +1,7 @@
 package Java_L_S_D_ooP.DZ.Dz_6_7.terminal;
 
-public interface CommandParser {
+public interface CommandParser<E>{
     
-    String[] parseCommand(String inputCommand);
+    Command parseCommand(E inputCommand);
 
 }

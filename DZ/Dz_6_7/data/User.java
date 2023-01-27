@@ -1,6 +1,6 @@
 package Java_L_S_D_ooP.DZ.Dz_6_7.data;
 
-public abstract class User {
+public abstract class User{
     
     private String FIO;
     private int birthday;
@@ -10,28 +10,29 @@ public abstract class User {
         this.FIO = FIO;
     }
 
-    public User(String FIO, int birthday, int passport) {
+    public User(String FIO, int birthday, int passport){
         this.FIO = FIO;
         this.birthday = birthday;
         this.passport = passport;
     }
 
-    public String getFIO() {
+    public String getFIO(){
         return FIO;
     }
-    public void setFIO(String FIO) {
+    public void setFIO(String FIO){
         this.FIO = FIO;
     }
-    public int getBirthday() {
+    public int getBirthday(){
         return birthday;
     }
-    public void setBirthday(int birthday) {
+    public void setBirthday(int birthday){
         this.birthday = birthday;
     }
-    public int getPassport() {
+    public int getPassport(){
         return passport;
     }
-    public void setPassport(int passport) {
+    public void setPassport(int passport){
         this.passport = passport;
     }
+    
 }

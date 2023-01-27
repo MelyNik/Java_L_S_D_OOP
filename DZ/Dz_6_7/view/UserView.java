@@ -3,11 +3,12 @@ package Java_L_S_D_ooP.DZ.Dz_6_7.view;
 import java.util.List;
 import Java_L_S_D_ooP.DZ.Dz_6_7.data.User;
 
-public abstract class UserView {
+public abstract class UserView{
     
     abstract User findTheBest (List<User> userlist);
 
-    public void showTheBest (List<User> userList) {
+    public void showTheBest (List<User> userList){
         System.out.println(findTheBest(userList));
     }
+    
 }

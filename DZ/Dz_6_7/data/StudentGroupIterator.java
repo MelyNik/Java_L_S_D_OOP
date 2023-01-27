@@ -3,7 +3,7 @@ package Java_L_S_D_ooP.DZ.Dz_6_7.data;
 import java.util.Iterator;
 import java.util.List;
 
-public class StudentGroupIterator implements Iterator<Student> {
+public class StudentGroupIterator implements Iterator<Student>{
     
     private StudentGroup studentGroup;
     private List<Student> students;
@@ -33,4 +33,5 @@ public class StudentGroupIterator implements Iterator<Student> {
         this.students.remove(cursor);
         //this.students.remove();
     }
+    
 }
